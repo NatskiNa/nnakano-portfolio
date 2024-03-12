@@ -1,0 +1,63 @@
+.home {
+  height: 400px;
+}
+
+.home-content {
+  margin: auto;
+  padding: 10px;
+  margin-top: 100px;
+  padding-left: 170px;
+}
+
+.home-content h1 {
+  color: rgb(43, 42, 42);
+  font-family: Impact, fantasy;
+  font-weight: bold;
+}
+
+.home-content h2 {
+  margin-top: 20px;
+  font-family: Impact, fantasy;
+  font-weight: bold;
+  color: rgb(255, 165, 127);
+}
+
+.buttons {
+  display: flex;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.hire-me-btn {
+  background-color: rgb(255, 165, 127);
+  text-align: center;
+  width: 160px;
+  padding: 8px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.hire-me-btn:hover {
+  background-color: rgb(131, 127, 127);
+  width: 230px;
+  transition-duration: 1s;
+}
+
+.resume-btn {
+  margin-left: 10px;
+  background-color: rgb(255, 165, 127);
+  text-align: center;
+  width: 160px;
+  padding: 8px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.resume-btn:hover {
+  background-color: rgb(131, 127, 127);
+  width: 230px;
+  transition-duration: 1s;
+}

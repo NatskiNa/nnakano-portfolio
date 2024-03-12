@@ -1,0 +1,33 @@
+.sidebar-profile-pic img {
+  border-radius: 90px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  border: 5px solid whitesmoke;
+}
+
+.navbar-items ul li {
+  color: black;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.navbar-items ul li svg {
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.navbar-icons-only ul li {
+  color: black;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.navbar-icons-only ul li svg {
+  margin-left: 10px;
+}
