@@ -24,7 +24,7 @@ const SidebarList = ({ expandSidebar }) => {
               <BsPerson size={25} /> About
             </li>
             <li className="nav-item">
-              <PiStack size={25} /> Tech Stack
+              <PiStack size={25} /> Tech Skills
             </li>
             <li className="nav-item">
               <VscChecklist size={25} /> Projects

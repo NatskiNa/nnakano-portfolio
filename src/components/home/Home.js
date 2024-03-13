@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container-fluid home">
       <div className="container home-content">
-        <h2>Hi, I'm a </h2>
+        <h2>Hi, I'm Natski, </h2>
         <h1>
           <Typewriter
             options={{
@@ -20,7 +20,7 @@ const Home = () => {
         <div className="buttons">
           <div className="hire-me-btn">Hire Me</div>
           <div className="resume-btn">
-            <a href={myResume} download="NNakano_cv">
+            <a className="resume-link" href={myResume} download="NN_CV.pdf">
               Get Resume
             </a>
           </div>
