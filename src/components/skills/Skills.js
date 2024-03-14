@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
               <div className="skills">
-                <h2 className="slide-in-top">Technologies I know</h2>
+                <h2>Technologies I know</h2>
                 <hr></hr>
                 <div className="row my-2">
                   <div className="mx-2 my-2 border rounded py-2 px-2 mw-fc">

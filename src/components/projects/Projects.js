@@ -1,10 +1,12 @@
 import React from 'react';
+import ProjectList from './ProjectList';
 import './Projects.css';
 
 const Projects = () => {
   const data = [
     {
       name: 'Premier League Fan Site',
+      image: '',
       description: '3 pages soccer fan site with JS game (group project)',
       projectLink: 'https://github.com/NatskiNa/PL_fanSite',
       techUsed: [
@@ -24,8 +26,10 @@ const Projects = () => {
     },
     {
       name: 'Task Manager',
+      image: '',
       description: 'cloud app where users can track tasks',
-      projectLink:
+      projectLink: 'https://github.com/NatskiNa/simple-task-manager',
+      liveLink:
         'https://simple-task-manager-2vgosb0u1-natskinas-projects.vercel.app/',
       techUsed: [
         {
@@ -41,6 +45,7 @@ const Projects = () => {
     },
     {
       name: 'NodeJS Reminder',
+      image: '',
       description: 'simple task reminder app',
       projectLink: 'https://github.com/NatskiNa/reminder-Nodejs',
       techUsed: [
@@ -57,6 +62,7 @@ const Projects = () => {
     },
     {
       name: 'Memo App',
+      image: '',
       description: 'simple memo app for iOS and Android ',
       projectLink: 'https://github.com/NatskiNa/MemoApp',
       techUsed: [
@@ -74,19 +80,42 @@ const Projects = () => {
         },
       ],
     },
+    {
+      name: 'Xmas Treats Shopping',
+      image: '',
+      description: 'simple Christmas treats shopping cart',
+      projectLink:
+        'https://github.com/NatskiNa/christmas-treats-redux/tree/main/src',
+      techUsed: [
+        {
+          techName: 'ReactJS',
+        },
+        {
+          techName: 'React Redux',
+        },
+        {
+          techName: 'CSS',
+        },
+        {
+          techName: 'HTML',
+        },
+      ],
+    },
   ];
 
   return (
-    <div className="col py-3 d-flex align-items-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
-            <div className="projects">
-              <h2 className="slide-in-top">Projects</h2>
-              <hr></hr>
-            </div>
+    <div className="container" id="project">
+      <div className="projects">
+        <h2>Projects</h2>
+        <hr></hr>
+      </div>
+
+      <div className="row">
+        {data.map((item, index) => (
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
+            <ProjectList {...item} />
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );

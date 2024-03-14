@@ -1,6 +1,5 @@
 .projects {
   margin-top: 50px;
-  font-size: 14px;
   margin-left: 170px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(43, 42, 42);
@@ -11,10 +10,76 @@
   width: 700px;
 }
 
-.slide-in-top {
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-name: slideInTop;
+.project-list {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 6px -3px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 10px 10px 6px -3px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 6px -3px rgba(0, 0, 0, 0.29);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.project-list h5 {
+  color: rgb(43, 42, 42);
+  font-weight: bold;
+}
+
+.project-list:hover {
+  border-left: 5px solid rgb(230, 83, 60);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.title-and-chevron {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.techUsed-in-project {
+  margin-top: 20px;
+  margin: 5px;
+}
+
+.techUsed-in-project p {
+  background-color: grey;
+  color: white;
+  border-radius: 90px;
+  padding: 7px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-link-buttons {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+.code-link-btn {
+  background-color: rgb(70, 70, 70);
+  border-radius: 90px;
+  width: 120px;
+  padding: 7px;
+  text-align: center;
+  margin-top: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.live-link-btn {
+  margin-left: 10px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 90px;
+  width: 120px;
+  padding: 7px;
+  text-align: center;
+  margin-top: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
