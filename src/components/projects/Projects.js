@@ -6,8 +6,8 @@ const Projects = () => {
   const data = [
     {
       name: 'Premier League Fan Site',
-      image: '',
-      description: '3 pages soccer fan site with JS game (group project)',
+      description:
+        '3 pages soccer fan site with JavaScript game (group project)',
       projectLink: 'https://github.com/NatskiNa/PL_fanSite',
       techUsed: [
         {
@@ -26,7 +26,6 @@ const Projects = () => {
     },
     {
       name: 'Task Manager',
-      image: '',
       description: 'cloud app where users can track tasks',
       projectLink: 'https://github.com/NatskiNa/simple-task-manager',
       liveLink:
@@ -45,7 +44,6 @@ const Projects = () => {
     },
     {
       name: 'NodeJS Reminder',
-      image: '',
       description: 'simple task reminder app',
       projectLink: 'https://github.com/NatskiNa/reminder-Nodejs',
       techUsed: [
@@ -62,7 +60,6 @@ const Projects = () => {
     },
     {
       name: 'Memo App',
-      image: '',
       description: 'simple memo app for iOS and Android ',
       projectLink: 'https://github.com/NatskiNa/MemoApp',
       techUsed: [
@@ -82,8 +79,7 @@ const Projects = () => {
     },
     {
       name: 'Xmas Treats Shopping',
-      image: '',
-      description: 'simple Christmas treats shopping cart',
+      description: 'Christmas treats shopping cart',
       projectLink:
         'https://github.com/NatskiNa/christmas-treats-redux/tree/main/src',
       techUsed: [
@@ -105,11 +101,10 @@ const Projects = () => {
 
   return (
     <div className="container" id="project">
-      <div className="projects">
+      <div className="section-title">
         <h2>Projects</h2>
         <hr></hr>
       </div>
-
       <div className="row">
         {data.map((item, index) => (
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
