@@ -12,22 +12,22 @@ const About = () => {
                 <h2 className="slide-in-top">About</h2>
                 <hr></hr>
                 <p>
-                  A self-led learner front-end developer. <br></br>
+                  A self-motivated front-end developer with a passion for
+                  learning and a drive for excellence. <br></br>
                   Currently looking for new opportunities in industry and
                   willing to learn quickly and work on challenging projects with
                   the latest technologies.
                 </p>
                 <p>
-                  Recently graduated from Nucamp Coding Bootcamp. <br></br>
-                  Learned the latest technologies and best practices in web
-                  development, such as React, React Native, HTML, CSS, Bootstrap
-                  and JavaScript.
+                  Recently graduated from Nucamp Coding Bootcamp, I've gained
+                  expertise in React, React Native, HTML, CSS, Bootstrap, and
+                  JavaScript. Eager to apply my skills to challenging projects
+                  with the latest technologies.
                 </p>
                 <p>
-                  Previously worked as a fashion designer. <br></br>
-                  Have a good eye for visual details and a proven ability to
-                  coordinate complex projects with many moving parts while
-                  working as part of a team.
+                  With a background in fashion design, I bring a unique
+                  perspective and a knack for detail-oriented work to the
+                  development field.
                 </p>
               </div>
             </div>
