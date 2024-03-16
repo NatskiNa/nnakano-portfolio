@@ -10,7 +10,7 @@ const ProjectList = ({
 }) => {
   return (
     <>
-      <div className="col py-3 d-flex align-items-center">
+      <div className="col-py-3 d-flex align-items-center">
         <div className="container">
           <div className="row">
             <div className="projects">

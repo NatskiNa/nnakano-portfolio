@@ -9,7 +9,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
               <div className="about-me">
-                <h2 className="slide-in-top">About</h2>
+                <h2>About</h2>
                 <hr></hr>
                 <p>
                   A self-motivated front-end developer with a passion for
