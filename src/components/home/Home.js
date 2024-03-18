@@ -19,7 +19,7 @@ const Home = () => {
             />
           </h1>
           <div className="buttons">
-            <div className="hire-me-btn">Hire Me</div>
+            <div className="contact-me-btn">Contact Me</div>
             <div className="resume-btn">
               <a className="resume-link" href={myResume} download="NN_CV.pdf">
                 Get Resume

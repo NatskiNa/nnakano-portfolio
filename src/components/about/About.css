@@ -1,12 +1,17 @@
-.about-me {
-  margin-top: 50px;
-  font-size: 14px;
-  margin-left: 170px;
+.about-section {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(43, 42, 42);
+  margin-top: 50px;
+}
+.about-me {
+  font-size: 16x;
+  margin-left: 170px;
 }
 
 .about-me h2 {
   font-weight: medium;
   width: 700px;
+}
+.about-me p {
+  padding-top: 10px;
 }
