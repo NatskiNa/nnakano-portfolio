@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import ScrollToTop from 'react-scroll-to-top';
+import './App.css';
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
 
       <ScrollToTop
         smooth
+        height="20"
+        width="20"
         color="white"
         style={{
           borderRadius: '90px',

@@ -6,7 +6,7 @@ import myResume from './NN_CV.pdf';
 const Home = () => {
   return (
     <>
-      <div className="container-fluid home">
+      <div className="container-fluid home" id="home">
         <div className="container home-content">
           <h2>Hi, I'm Natski, </h2>
           <h1>

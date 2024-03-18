@@ -100,7 +100,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="container" id="project">
+    <div className="container" id="projects">
       <div className="section-title">
         <h2>Projects</h2>
         <hr></hr>

@@ -7,7 +7,7 @@ import { BsPerson } from 'react-icons/bs';
 import { PiStack } from 'react-icons/pi';
 import { VscChecklist } from 'react-icons/vsc';
 import { MdOutlineContactPage } from 'react-icons/md';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const SidebarList = ({ expandSidebar }) => {
   return (
@@ -19,67 +19,121 @@ const SidebarList = ({ expandSidebar }) => {
           </div>
           <ul>
             <li className="nav-item">
-              <GoHome size={25} /> Home
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <GoHome size={25} /> Home
+              </Link>
             </li>
+
             <li className="nav-item">
-              <NavLink to="/about" className="text-decoration-none text-black">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <BsPerson size={25} /> About
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink to="/skills" className="text-decoration-none text-black">
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <PiStack size={25} /> Tech Skills
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/projects"
-                className="text-decoration-none text-black"
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
               >
                 <VscChecklist size={25} /> Projects
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/contact"
-                className="text-decoration-none text-black"
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
               >
                 <MdOutlineContactPage size={25} /> Contact
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
       ) : (
         <div className="navbar-icons-only">
           <ul>
-            <li className="nav-item" alt="home">
-              <GoHome size={25} />
+            <li className="nav-item">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <GoHome size={25} />
+              </Link>
             </li>
-            <li className="nav-item" alt="about">
-              <NavLink to="/about" className="text-decoration-none text-black">
+
+            <li className="nav-item">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <BsPerson size={25} />
-              </NavLink>
+              </Link>
             </li>
-            <li className="nav-item" alt="skills">
-              <NavLink to="/skills" className="text-decoration-none text-black">
+            <li className="nav-item">
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <PiStack size={25} />
-              </NavLink>
+              </Link>
             </li>
-            <li className="nav-item" alt="projects">
-              <NavLink
-                to="/projects"
-                className="text-decoration-none text-black"
+            <li className="nav-item">
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
               >
                 <VscChecklist size={25} />
-              </NavLink>
+              </Link>
             </li>
-            <li className="nav-item" alt="contact">
-              <NavLink
-                to="/contact"
-                className="text-decoration-none text-black"
+            <li className="nav-item">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
               >
                 <MdOutlineContactPage size={25} />
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
