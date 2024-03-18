@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import ScrollToTop from 'react-scroll-to-top';
 
 const App = () => {
   return (
@@ -15,6 +16,15 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
+
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{
+          borderRadius: '90px',
+          backgroundColor: 'black',
+        }}
+      />
     </div>
   );
 };
