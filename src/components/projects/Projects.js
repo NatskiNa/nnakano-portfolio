@@ -80,8 +80,7 @@ const Projects = () => {
     {
       name: 'Xmas Treats Shopping',
       description: 'Christmas treats shopping cart',
-      projectLink:
-        'https://github.com/NatskiNa/christmas-treats-redux/tree/main/src',
+      projectLink: 'https://github.com/NatskiNa/christmas-treats-redux',
       techUsed: [
         {
           techName: 'ReactJS',

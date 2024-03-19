@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Sidebar.css';
 import Home from '../home/Home';
 import SidebarList from './SidebarList';
-
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 const Sidebar = () => {

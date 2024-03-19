@@ -18,7 +18,6 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
-
       <ScrollToTop
         smooth
         height="20"
