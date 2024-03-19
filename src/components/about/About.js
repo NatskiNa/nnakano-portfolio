@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container about-section" id="about">
       <div className="row">
-        <div className="col-xl-8 col-lg-10 col-md-10 col-sm-12">
+        <div className="col">
           <div className="about-me">
             <h2>About</h2>
             <hr></hr>

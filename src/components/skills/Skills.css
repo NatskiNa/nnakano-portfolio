@@ -6,13 +6,13 @@
 .skills {
   margin-top: 50px;
   font-size: 14px;
-  margin-left: 170px;
+  /* margin-left: 170px; */
   display: block;
 }
 
 .skills h2 {
   font-weight: medium;
-  width: 700px;
+  /* width: 700px; */
 }
 
 .skills-content {

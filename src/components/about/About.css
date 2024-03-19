@@ -5,12 +5,11 @@
 }
 .about-me {
   font-size: 16x;
-  margin-left: 170px;
+  /* margin-left: 170px; */
 }
 
 .about-me h2 {
   font-weight: medium;
-  width: 700px;
 }
 .about-me p {
   padding-top: 10px;

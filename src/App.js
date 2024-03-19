@@ -6,11 +6,13 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import ScrollToTop from 'react-scroll-to-top';
+import NavbarMobileView from './components/sidebar/NavbarMobileView';
 import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
+    <>
+      <NavbarMobileView />
       <Sidebar />
       <About />
       <Skills />
@@ -27,7 +29,7 @@ const App = () => {
           backgroundColor: 'black',
         }}
       />
-    </div>
+    </>
   );
 };
 
