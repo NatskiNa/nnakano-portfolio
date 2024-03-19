@@ -34,7 +34,6 @@
   color: black;
   cursor: pointer;
   transition: all 0.3s;
-  background-color: rgb(252, 248, 241);
 }
 
 .contact-info:hover {
