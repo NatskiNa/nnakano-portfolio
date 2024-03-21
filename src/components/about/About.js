@@ -10,21 +10,17 @@ const About = () => {
             <h2>About</h2>
             <hr></hr>
             <p>
-              A self-motivated front-end developer with a passion for learning
-              and a drive for excellence. <br></br>
-              Currently looking for new opportunities in industry and willing to
-              learn quickly and work on challenging projects with the latest
-              technologies.
+              A self-motivated front-end developer, I am eager to pursue new
+              opportunities within the industry.
             </p>
             <p>
-              Recently graduated from Nucamp Coding Bootcamp, I've gained
+              Recently completing the Nucamp Coding Bootcamp, I have acquired
               expertise in React, React Native, HTML, CSS, Bootstrap, and
-              JavaScript. Eager to apply my skills to challenging projects with
-              the latest technologies.
+              JavaScript.
             </p>
             <p>
-              With a background in fashion design, I bring a unique perspective
-              and a knack for detail-oriented work to the development field.
+              Transitioning from an extensive background in high-end fashion, I
+              bring a unique drive to innovate in alignment with current trend.
             </p>
           </div>
         </div>
