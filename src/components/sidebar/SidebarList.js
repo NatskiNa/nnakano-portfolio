@@ -5,8 +5,9 @@ import profilepic from '../../image/NN-profile.jpg';
 import { GoHome } from 'react-icons/go';
 import { BsPerson } from 'react-icons/bs';
 import { PiStack } from 'react-icons/pi';
-import { VscChecklist } from 'react-icons/vsc';
-import { MdOutlineContactPage } from 'react-icons/md';
+import { MdOutlineWorkOutline } from 'react-icons/md';
+
+import { IoIosContact } from 'react-icons/io';
 import { Link } from 'react-scroll';
 
 const SidebarList = ({ expandSidebar }) => {
@@ -49,7 +50,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <PiStack size={25} /> Tech Skills
+                <PiStack size={25} /> Skills
               </Link>
             </li>
             <li className="nav-item">
@@ -60,7 +61,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <VscChecklist size={25} /> Projects
+                <MdOutlineWorkOutline size={25} /> Projects
               </Link>
             </li>
             <li className="nav-item">
@@ -71,7 +72,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <MdOutlineContactPage size={25} /> Contact
+                <IoIosContact size={25} /> Contact
               </Link>
             </li>
           </ul>
@@ -121,7 +122,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <VscChecklist size={25} />
+                <MdOutlineWorkOutline size={25} />
               </Link>
             </li>
             <li className="nav-item">
@@ -132,7 +133,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <MdOutlineContactPage size={25} />
+                <IoIosContact size={25} />
               </Link>
             </li>
           </ul>

@@ -56,7 +56,7 @@ const NavbarMobileView = () => {
                 duration={100}
                 offset={-100}
               >
-                <PiStack size={25} /> Tech Skills
+                <PiStack size={25} /> Skills
               </Link>
             </li>
             <li className="nav-item-mobile">

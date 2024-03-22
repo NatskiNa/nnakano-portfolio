@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import myResume from './NN_CV.pdf';
 import { Link } from 'react-scroll';
 
-const Home = () => {
+const Home = ({ isSidebarOpen }) => {
   return (
     <div className="container-fluid home" id="home">
       <div className="container home-content">
