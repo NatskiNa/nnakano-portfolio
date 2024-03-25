@@ -9,6 +9,7 @@ const Projects = () => {
       description:
         '3 pages soccer fan site with JavaScript game (group project)',
       projectLink: 'https://github.com/NatskiNa/PL_fanSite',
+      liveLink: 'https://pl-fan-site.vercel.app/',
       techUsed: [
         {
           techName: 'JavaScript',
@@ -81,6 +82,7 @@ const Projects = () => {
       name: 'Xmas Treats Shopping',
       description: 'Christmas treats shopping cart',
       projectLink: 'https://github.com/NatskiNa/christmas-treats-redux',
+      liveLink: 'https://christmas-treats-redux.vercel.app/',
       techUsed: [
         {
           techName: 'ReactJS',
