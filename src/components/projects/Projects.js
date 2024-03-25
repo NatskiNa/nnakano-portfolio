@@ -43,9 +43,9 @@ const Projects = () => {
       ],
     },
     {
-      name: 'NodeJS Reminder',
-      description: 'simple task reminder app',
-      projectLink: 'https://github.com/NatskiNa/reminder-Nodejs',
+      name: 'Memo App',
+      description: 'simple memo app for iOS and Android ',
+      projectLink: 'https://github.com/NatskiNa/MemoApp',
       techUsed: [
         {
           techName: 'React Native',
@@ -59,9 +59,9 @@ const Projects = () => {
       ],
     },
     {
-      name: 'Memo App',
-      description: 'simple memo app for iOS and Android ',
-      projectLink: 'https://github.com/NatskiNa/MemoApp',
+      name: 'NodeJS Reminder',
+      description: 'simple task reminder app',
+      projectLink: 'https://github.com/NatskiNa/reminder-Nodejs',
       techUsed: [
         {
           techName: 'ReactJS',

@@ -20,7 +20,7 @@ const About = () => {
             </p>
             <p>
               Transitioning from an extensive background in high-end fashion, I
-              bring a unique drive to innovate in alignment with current trend.
+              bring a unique drive to innovate in alignment with current trends.
             </p>
           </div>
         </div>
