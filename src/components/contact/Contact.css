@@ -1,17 +1,18 @@
 .contact-section {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(43, 42, 42);
+  font-family: var(--font-family);
+  color: var(--text-color);
   margin-bottom: 70px;
+  margin-top: 70px;
+  padding: 0 15px;
 }
 
 .contact {
-  margin-top: 50px;
   font-size: 14px;
   display: block;
 }
 
 .contact h2 {
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .button {
@@ -38,4 +39,10 @@
   box-shadow: none;
   border: 1px black solid;
   transform: translate(3px, 3px);
+}
+
+@media screen and (min-width: 769px) {
+  .contact-section {
+    padding: 0 50px;
+  }
 }

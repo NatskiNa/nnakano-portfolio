@@ -1,18 +1,17 @@
 .skills-section {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(43, 42, 42);
+  font-family: var(--font-family);
+  color: var(--text-color);
+  padding: 0 15px;
 }
 
 .skills {
   margin-top: 50px;
   font-size: 14px;
-  /* margin-left: 170px; */
   display: block;
 }
 
 .skills h2 {
-  font-weight: medium;
-  /* width: 700px; */
+  font-weight: var(--skills-font-weight);
 }
 
 .skills-content {
@@ -23,4 +22,26 @@
 
 .mw-fc {
   max-width: fit-content;
+}
+
+@media screen and (min-width: 769px) {
+  .skills-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+  }
+
+  .skills {
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .skills-section {
+    margin-top: 20px;
+  }
+
+  skills {
+    max-width: 1200px;
+  }
 }

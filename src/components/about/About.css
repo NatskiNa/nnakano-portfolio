@@ -1,22 +1,40 @@
 .about-section {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(43, 42, 42);
+  font-family: var(--font-family);
+  color: var(--text-color);
   margin-top: 50px;
+  padding: 0 15px;
 }
+
 .about-me {
-  font-size: 16x;
-  /* margin-left: 170px; */
+  font-size: 16px;
 }
 
 .about-me h2 {
-  font-weight: medium;
+  font-weight: 500;
 }
+
 .about-me p {
   padding-top: 10px;
 }
 
-@media (max-width: 1000px) {
+@media screen and (min-width: 769px) {
   .about-section {
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+  }
+
+  .about-me {
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .about-section {
+    margin-top: 70px;
+  }
+
+  .about-me {
+    max-width: 1200px;
   }
 }
