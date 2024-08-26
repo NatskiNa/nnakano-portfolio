@@ -8,6 +8,7 @@
   background-color: grey;
   width: 95px;
   position: fixed;
+  transition: width 0.3s ease;
 }
 
 .sidebar-expand {

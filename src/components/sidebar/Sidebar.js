@@ -5,7 +5,8 @@ import SidebarList from './SidebarList';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 const Sidebar = () => {
-  const [expandSidebar, setExpandSidebar] = useState(true);
+  const [expandSidebar, setExpandSidebar] = useState(false);
+
   const handleExpandClick = () => {
     setExpandSidebar(!expandSidebar);
   };

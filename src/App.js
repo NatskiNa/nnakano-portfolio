@@ -1,10 +1,10 @@
 import React from 'react';
 //import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/sidebar/Sidebar';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
+import About from '../src/components/pages/About';
+import Skills from '../src/components/pages//Skills';
+import Projects from '../src/components/pages/Projects';
+import Contact from '../src/components/pages//Contact';
 import ScrollToTop from 'react-scroll-to-top';
 import NavbarMobileView from './components/sidebar/NavbarMobileView';
 import './App.css';
