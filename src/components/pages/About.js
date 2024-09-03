@@ -10,17 +10,19 @@ const About = () => {
             <h2>About</h2>
             <hr></hr>
             <p>
-              A self-motivated front-end developer, I am eager to pursue new
-              opportunities within the industry.
+              I am a passionate front-end web developer focused on creating
+              responsive and user-friendly applications. With a keen eye for
+              detail and a commitment to excellence, I thrive on building
+              solutions that meet client needs and enhance user experiences.
             </p>
             <p>
-              Recently completing the Nucamp Coding Bootcamp, I have acquired
-              expertise in React, React Native, HTML, CSS, Bootstrap, and
-              JavaScript.
-            </p>
-            <p>
-              Transitioning from an extensive background in high-end fashion, I
-              bring a unique drive to innovate in alignment with current trends.
+              I have a strong interest in React and enjoy developing interactive
+              features and improving performance as I expand my skills.
+              Additionally, my foundational knowledge of backend technologies
+              provides insight into full-stack development challenges. I am
+              eager to contribute fresh ideas, adapt quickly to new tools and
+              methodologies, and keep up with industry trends through continuous
+              learning and collaboration.
             </p>
           </div>
         </div>
