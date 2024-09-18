@@ -5,6 +5,27 @@ import './styles/Projects.css';
 const Projects = () => {
   const data = [
     {
+      name: 'Ahmed Tech Academy',
+      description:
+        'Designed and developed a responsive website for a new coding bootcamp using React.js',
+      projectLink: 'https://www.ahmedtechacademy.com/',
+      liveLink: 'https://www.ahmedtechacademy.com/',
+      techUsed: [
+        {
+          techName: 'ReactJS',
+        },
+        {
+          techName: 'HTML',
+        },
+        {
+          techName: 'CSS',
+        },
+        {
+          techName: 'JSON',
+        },
+      ],
+    },
+    {
       name: 'Premier League Fan Site',
       description:
         '3 pages soccer fan site with JavaScript game (group project)',
